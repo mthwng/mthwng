@@ -1,0 +1,48 @@
+//Takes a string of comma seperated integers and finds the biggest difference possible between two numbers
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.nio.Buffer;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        InputStreamReader Reader = new InputStreamReader(System.in, StandardCharsets.UTF_8);
+        BufferedReader in = new BufferedReader(Reader);
+        String line;
+        while((line = in.readLine()) != null){
+            System.out.println(line);
+
+            List<String> myList = new ArrayList<String>(Arrays.asList(line.split(",")));
+            List<Integer> intList = new ArrayList<>();
+            for(String s : myList) intList.add(Integer.valueOf(s));
+
+            System.out.println(intList);
+
+           int max = intList.get(0);
+
+            for(int i = 1; i < intList.size(); i++){
+                if(max < intList.get(i))
+                    max = intList.get(i);
+            }
+            System.out.println(max);
+
+            int min = intList.get(0);
+
+           for(int i = 0; i < intList.size(); i++){
+               if(min > intList.get(i))
+                   min = intList.get(i);
+           }
+           System.out.println(min);
+
+           System.out.println(max-min);
+
+        }
+
+    }
+}
