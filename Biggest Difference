@@ -22,7 +22,7 @@ public class Main {
             List<Integer> intList = new ArrayList<>();
             for(String s : myList) intList.add(Integer.valueOf(s));
 
-            System.out.println(intList);
+           System.out.println(intList);
 
            int max = intList.get(0);
 
@@ -31,6 +31,8 @@ public class Main {
                     max = intList.get(i);
             }
             System.out.println(max);
+            
+            //Alternative for finding max value from array list: int max = Collections.max(intList);
 
             int min = intList.get(0);
 
