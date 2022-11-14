@@ -9,12 +9,8 @@
 
 ### Connect with me:
 
-
-[![website](./img/linkedin-light.svg)](https://www.linkedin.com/in/matthew-ng-73068415a#gh-light-mode-only)
-[![website](./img/linkedin-dark.svg)](https://www.linkedin.com/in/matthew-ng-73068415a#gh-dark-mode-only)
-&nbsp;&nbsp;
-[![website](./img/instagram-light.svg)](https://www.instagram.com/mthwng/#gh-light-mode-only)
-[![website](./img/instagram-dark.svg)](https://www.instagram.com/mthwng/#gh-dark-mode-only)
+[![instagram](https://github.com/shikhar1020jais1/Git-Social/blob/master/Icons/Instagram.png (Instagram))][2]
+[![linkedin](https://github.com/shikhar1020jais1/Git-Social/blob/master/Icons/LinkedIn.png (LinkedIn))][4]
 
 <ing height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d349d/topics/c/git.png"></code>
 
@@ -27,11 +23,12 @@
 <img align="left" alt="JavaScript" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />
 
 
+
 <!---
 mthwng/mthwng is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
 
 
-[instagram]: https://www.instagram.com/mthwng/
-[linkedin]: https://www.linkedin.com/in/matthew-ng-73068415a
+[2]: https://www.instagram.com/mthwng/
+[4]: https://www.linkedin.com/in/matthew-ng-73068415a
